@@ -12,7 +12,7 @@
                         Sakit</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ request()->is('patients*') ? 'active' : '' }}" href="/patient">Pasien</a>
+                    <a class="nav-link {{ request()->is('patient*') ? 'active' : '' }}" href="/patient">Pasien</a>
                 </li>
             </ul>
 
